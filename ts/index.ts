@@ -35,29 +35,49 @@ let strLength : number = (someValue as string).length;
 // console.log(strLength);
 
 let config: {server: string, port : number} & {secure : boolean, timeout: number} = {
-    server :'va12';
-}
+    server :'va12',
+    port : 1525,
+    secure : true,
+    timeout : 1000
+};
 
 
 //TS Topics
 
-//any
-//unknown
-//never
-//void
-//undefined
-//tuple
-//array
-//Enum
-//Type Inference
-//Type Assertion
-//Union types
-//Type Narrowing
-//Interface
-//Type Aliases
-//Objects
-//Optional
-//Function
+//any - any
+//unknown - unknown
+//never - never
+//void - undefined
+//undefined - undefined
+//tuple - tuple literal
+//array - array literal
+//Enum - enum
+//Type Inference - let, const
+//Type Assertion - as, angle-bracket
+//Union types - |
+//Type Narrowing - type guards
+//Interface - interface, interface inheritance
+//Type Aliases - type
+//Objects - object, object literal
+//Optional - ?
+//Functions - function, arrow function, rest parameters, default parameters
+//Generics - generic function, generic class, generic interface
+//Literal Types - string literal, numeric literal, boolean literal
+//Type Guards - typeof, instanceof, custom fn
+//Key of - keyof
+//Index Signature - [Key: string]: any
+//Utility Types - Partial, Required, Readonly, Record, Pick, Omit, Exclude, Extract, NonNullable, ReturnType, 
+//Utility Types - Parameters, ConstructorParameters
+//Modules - import, export
+//Namespaces - namespace
+//Decorators - class decorators, method decorators, property decorators, parameter decorators
+//Mixins -  class mixin
+//Abstract Classes - abstract class
+//Async/Await - async function, await
+
+
+
+
 
 
 
