@@ -74,6 +74,11 @@ let config: {server: string, port : number} & {secure : boolean, timeout: number
 //Mixins -  class mixin
 //Abstract Classes - abstract class
 //Async/Await - async function, await
+//Non-Null Assertion (variable!)
+//Discriminated Unions : Discriminated unions use a common property across multiple types to distinguish
+//'in' operator - if('propertyName' in ObjectName)
+//infer keyword 
+
 
 
 
